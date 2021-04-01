@@ -7,6 +7,7 @@ namespace SDuo.NetCore.AliCloud.RocketMQ.Samples
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Service.SDK_VERSION);
             Console.WriteLine("普通消息");
             Task.Run(() => SendMessage(5, 500));
             MQ.Consumer.ReceiveMessage += new ReceiveMessageHandler(ReceiveMessageA);
