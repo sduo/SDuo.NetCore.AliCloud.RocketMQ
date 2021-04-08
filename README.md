@@ -8,6 +8,6 @@ SDK:[mq-http-csharp-sdk](https://github.com/aliyunmq/mq-http-csharp-sdk)
 * Exception capturable
 
 # Support:
-[x] Message
-[x] Orderly Message
-[ ] Transaction Message
+* [x] Message
+* [x] Orderly Message
+* [ ] Transaction Message
